@@ -3,7 +3,7 @@
 ข้อนี้เราจะได้ไฟล์โปรเจคมาด้วย
 ครับวิเคราะห์ครับ☹️
 
-## วิเคราะห์ dump.sql
+## dump.sql
 ```sql
 -- Create the 'users' table
 CREATE TABLE users (
@@ -46,10 +46,10 @@ CALL GenerateRandomUsers();
 DROP PROCEDURE IF EXISTS GenerateRandomUsers;
 ```
 
-วิเคราะห์คร่าวๆก็คือว่า มันจะสร้าง account มา 500 ตัว ซึ่งตัวที่ {SOME_NUMBER} จะมี flag อยู่ใน bio
+คร่าวๆก็คือว่า มันจะสร้าง account มา 500 ตัว ซึ่งตัวที่ {SOME_NUMBER} จะมี flag อยู่ใน bio
 
 
-## วิเคราะห์ index.php
+## index.php
 ```php
 ...
 $userParam = $_GET['user'];
