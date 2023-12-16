@@ -75,7 +75,7 @@ if ($userParam) {
 ```
 คร่าวๆคือเราจะพบว่ามันสามารถ sql injection ได้
 ~แจ๋วสิครับ ซึ่งแนวคิด inject ก็ง่ายๆ โค้ด sql เดิมๆมันจะ select username, password, bio และก็จะแสดงผล แค่ username, password ซึ่ง flag มันอยู่ที่ bio ของ account ใครสักคน
-ผมก็เลย UNION account ที่มี flag อยู่ใน bio ด้วยคำสั่ง LIKE เข้ามา
+ผมก็เลย UNION account ที่มี flag อยู่ใน bio ด้วยคำสั่ง LIKE และแทนที่ bio ลงไปใน column username เพื่อให้มันแสดงผลออกมา
 
 payload ก็จะได้เป็นประมาณนี้
 
