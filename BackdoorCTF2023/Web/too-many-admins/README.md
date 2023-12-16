@@ -83,4 +83,7 @@ payload ก็จะได้เป็นประมาณนี้
 ' UNION SELECT bio as username, 'b' as password, 'b' as bio FROM users WHERE bio LIKE 'flag{%';-- -
 ```
 
+ครับได้ flag
+
+![flag](flag.png)
 
