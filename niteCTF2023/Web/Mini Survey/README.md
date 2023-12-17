@@ -51,7 +51,7 @@ function updateDBs(dataObj, original) {
 }
 ...
 ```
-func updateDBs จะเพิ่ม flag เข้าไปใน commData (dataObj ที่ถูก clone มา) และก็จะเรียก func sendData เพื่อเชื่อมต่อ แบบ tcp ไปยังที่ไหนสักที่ และก็ส่ง postData ที่มี flag อยู่ไป
+func updateDBs จะเพิ่ม flag เข้าไปใน commData (dataObj ที่ถูก clone มา) และก็จะเรียก func sendData เพื่อเชื่อมต่อ tcp ไปยังที่ไหนสักที่ และก็ส่ง postData ที่มี flag อยู่ไป
 
 ## ทำไงล่ะทีนี้?
 ผมไปเจอ https://t.ly/EgVId พบว่าเราสามารถใช้ `__proto__` เพื่อไป set prototype ของ object นั้นๆได้ (ถ้าทฤษฎีเพี้ยนอย่าโกรธกันเลย) ผมก็เลยได้ script นี้เพื่อเอา flag คร่าวๆประมาณนี้
