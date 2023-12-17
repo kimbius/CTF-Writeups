@@ -64,7 +64,7 @@ request("POST", "??", headers={'Content-Type':'application/x-www-form-urlencoded
 
 ## Flag
 `nite{pr0t0_p0llut3d_116a4601b79d6b8f}`
-`nite{9wd_t0_th3_r35cu3_dp54kf}` fake flag in prod 🤣
+(`nite{9wd_t0_th3_r35cu3_dp54kf}` fake flag in prod 🤣)
 
 ![firstblood](firstbloodXD.png)
 
