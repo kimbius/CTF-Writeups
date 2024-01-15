@@ -8,6 +8,8 @@ This is a continuation of "Out of the Bucket". Take a look around and see if you
 Author: windex
 ```
 
+## Solve
+
 ![funny.json](img/funny.png)
 
 Before, we saw the `secret/funny.json`. Then, do like this!

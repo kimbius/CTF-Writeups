@@ -10,6 +10,8 @@ Author: SteakEnthusiast
 nc 35.226.249.45 5000
 ```
 
+## Solve
+
 ```shell
 ~ % nc 35.226.249.45 5000
 breakpoint()

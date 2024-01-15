@@ -46,6 +46,8 @@ Author: Ido
 </html>
 ```
 
+## Solve
+
 You can see the `sheetId` from the URL. I just try to go to the [https://docs.google.com/spreadsheets/d/:sheetId/edit](https://docs.google.com/spreadsheets/d/1PGFh37vMWFrdOnIoItnxiGAkIqSxlJDiDyklp9OVtoQ/edit)
 
 ![access denied](img/accessDenied.png)

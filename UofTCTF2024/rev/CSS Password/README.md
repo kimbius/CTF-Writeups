@@ -11,6 +11,7 @@ Make sure to use a browser that supports the CSS :has selector, such as Firefox 
 Author: notnotpuns
 ```
 
+## Solve
 ```js
 let styleSrc = document.head.getElementsByTagName("style")[0].innerHTML
 styleSrc.match(/(b\d+_\d+_l\d+_c\d+)/g).map(_ => _.split("_").map(_ => +_.match(/\d+/g)[0])).map(([byte, latch, led, checker]) => {

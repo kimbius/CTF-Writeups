@@ -11,6 +11,8 @@ Author: windex
 https://storage.googleapis.com/out-of-the-bucket/src/index.html
 ```
 
+## Solve
+
 Let's go to the root of the bucket
 
 ![root of the bucket.xml](img/image.png)

