@@ -1,5 +1,5 @@
 # web/learn HTTP better
-## get sample of token
+## get sample of jwt
 ```js
 build = (p) => "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: "+p.length+"\r\n\r\n"+p
 build_url = (p) => `http://localhost:5001/resp?body=${encodeURIComponent(p)}`
