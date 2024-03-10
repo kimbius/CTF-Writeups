@@ -1,7 +1,5 @@
 # learn HTTP
 
-This challenge is split into three parts (simple, better, final)
-
 | Challenge | Solves |
 | --- | --- |
 | [learn HTTP](simple) | 77 |
