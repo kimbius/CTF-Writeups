@@ -1,0 +1,13 @@
+print(xor(msg1,msg2,msg3,msg4,key))
+print(xor(msg1,key))
+print(xor(msg2,key))
+print(xor(msg3,key))
+print(xor(msg4,key))
+print(xor(flag,key))
+
+b'biDEdl~u2'
+b'\x00\x1a\x18+\x1b\x14\x1b\x10U'
+b'\x1c\x17\x153\x07\\\x17\x08'
+b'\x13\x1d\x16;\nM\x17\x03'
+b'\x19\x0b&9\x1a]\x17\n\x10'
+b'&":\x1e+`4\x1f\x10\x16AfZ\x03\x11\\FGKjYQ@\x06@CLo\r\x05KQC\x10\x1blY\x02BU\t'
