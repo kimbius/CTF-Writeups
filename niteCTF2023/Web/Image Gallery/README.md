@@ -91,7 +91,40 @@ def login():
 ...
 ```
 
-ครับจะเห็นว่ามัน sql injection ได้แหละ แต่มัน ignore famous command เลยต้อง research command ที่มันไม่มีอยู่ใน ignore list นี้
+ครับจะเห็นว่ามัน sql injection ได้แหละ แต่มัน filter คำสั่งที่ใช้บ่อยๆไว้ เลยต้อง research คำสั่งที่มันไม่มีอยู่ใน list นี้
+
+```python
+[
+    "=",
+    "<",
+    ">",
+    "+",
+    "//",
+    "|",
+    ";",
+    " ",
+    " ",
+    "'1",
+    " 1",
+    " true",
+    "'true",
+    " or",
+    "'or",
+    "/or",
+    " and",
+    "'and",
+    "/and",
+    "'like",
+    " like",
+    "/like",
+    "'where",
+    " where",
+    "/where",
+    "%00",
+    "null",
+    "admin'",
+]
+```
 
 แล้วผมก็ไปเจอว่า /**/ การ comment แบบนี้ใน sql มันจะกลายเป็นช่องว่าง ก็~~แจ๋วสิครับ งั้นเราก็มา build payload กัน
 
